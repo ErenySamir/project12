@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroung"
+    android:layout_width="match_parent">
+
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        android:src="@drawable/robot">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e8d1c5"
+        android:lines="1"
+        android:drawableStart="@drawable/ic_baseline_people_24"
+        android:text="Enter your information"
+        android:textColor="#800f2f"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffc2d1"
+        android:hint="select gender"
+        android:inputType="number">
+
+    </EditText>
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="male" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="female" />
+    <Button
+        android:layout_width="464dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_buttom"
+        android:text="@string/submit">
+
+    </Button>
+
+
+
+</LinearLayout>
